@@ -1,0 +1,79 @@
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+[class*="row"]{
+    display: flex;
+}
+
+.row h1{
+    padding: 100px 0;
+}
+
+.row-2{
+    flex-flow: row-reverse;
+}
+
+.col-1{
+    width: 8.333333333%;
+}
+.col-2{
+    width: 16.666666666%;
+}
+.col-3{
+    width: 24.999999999%;
+}
+.col-4{
+    width: 33.333333332%;
+}
+.col-5{
+    width: 41.666666665%;
+}
+.col-6{
+    width: 49.999999998%;
+}
+.col-7{
+    width: 58.333333331%;
+}
+.col-8{
+    width: 66.666666664%;
+}
+.col-9{
+    width: 74.9999999997%;
+}
+.col-10{
+    width: 83.33333333%;
+}
+.col-11{
+    width: 91.666666663%;
+}
+.col-12{
+    width: 100%;
+}
+
+[class*="col-"] { /* selecciona los atributos class cuyos valores tenga una subcadena col-*/
+    padding: 10px;
+  }
+
+@media (max-width: 900px){
+    [class*="row"]{
+        flex-wrap: wrap;
+        margin: 50px;
+    }
+    [class*="col-"]{ 
+        width: 100%;
+    }
+    [class*="row-"] h3,p{
+        text-align: center;
+    }
+    [class*="row"] img{
+        display: block;
+        margin: auto;
+    }
+    [class*="row-2"] img{
+        margin-left: 80px;
+    }
+}
+
+
