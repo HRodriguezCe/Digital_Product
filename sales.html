@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Brand</title>
+</head>
+<body>
+    <nav class="fadeInDown">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <div class="options">
+            <ul>
+                <li><a href="product.html">Producto y descripción</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container_sales">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3">
+                <div class="modulo_pago">
+                    <div class="modulo_pago_images">
+                        <img src="images/box2.webp" alt="">
+                    </div>
+                      <h3>
+                        Producto 1
+                      </h3>
+                      <p>
+                        Miles de productos hay en el mercado, pero nada como una caja con gatitos
+                      </p>
+                </div>
+            </div>
+                <div class="col-4">
+                    <div class="modulo_pago">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GDUZX4S36LLZU" method="POST">
+                            <label for="name">Nombre</label>
+                            <input type="text" placeholder="" name="name" id="name" class="data" required>
+                            <label for="email">E-mail</label>
+                            <input type="email" placeholder="" name="email" id="email" class="data" required>
+                            <label for="phone">Telefono</label>
+                            <input type="tel" placeholder="" name="phone" id="phone" class="data" required>
+                            <input type="submit" class="main_button" name="submit" value="Confirmar pago"> 
+                        </form>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+        </div>
+    </div>
+            
+    <div class="sale_footer">
+        <footer>
+            <div class="options">Terminos y condiciones</div>
+            <div class="options">contacto@brand.com</div>
+        </footer>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    background-color: #7acc2d;
+    padding: 0 1rem;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+.logo img{
+    width: 100px;
+    height: 40px;
+}
+
+.main{
+    padding: 10% 20%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../images/curve.webp");
+    background-size: cover;
+    background-position: center top;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    padding: 20px;
+    margin-top: -350px
+}
+
+.product_content{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 2px 1px #c1bcbc;
+    border-radius: 3px;
+    max-width: 400px;
+}
+
+.img_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: #7acc2d;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #84e02e;
+}
+
+.categorys{
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+}
+
+.category{
+    text-align: center;
+    padding: 20px;  
+}
+
+.category img{
+    max-height: 100px;
+}
+
+.mentions{
+    display: flex;
+    padding: 5%;
+}
+
+.mentions_title{
+    border-top: solid 1px rgb(209, 209, 209);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.mention{
+    padding: 10px;
+}
+
+.mention_content{
+    box-shadow: 0px 0px 2px 1px gray;
+}
+
+.mention img{
+    width: 100%;
+}
+
+.mention h3,p{
+    padding: 10px;
+}
+
+.container_sales{
+    margin-top: 200px;
+}
+
+.modulo_pago{
+    background-color: white;
+    box-shadow: 0px 0px 2px 1px rgb(236, 231, 231);
+    padding: 10px;
+    max-height: 300px;
+}
+
+.modulo_pago h3{
+    margin-left: 10px;
+}
+
+.modulo_pago p{
+    padding-bottom: 100px;
+}
+
+.modulo_pago_images{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.data{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(214, 212, 212);
+    outline: none;
+    box-sizing: border-box;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    height: 50px;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+}
+
+.sale_footer footer{
+    position:fixed;
+    left: 0;
+}
+
+.contact a{
+    color: white;
+}
